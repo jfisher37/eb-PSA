@@ -20,7 +20,7 @@ export class CdkPipelineStack extends Stack {
          input: CodePipelineSource.gitHub('jfisher37/eb-PSA', 'main'),
          
          // Install dependencies, build and run cdk synth
-         installCommands: [],
+         installCommands: ['npm i -g npm@latest'],
          commands: [
            'npm ci',
            'npm run build',
