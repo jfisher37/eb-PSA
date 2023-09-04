@@ -1,9 +1,6 @@
 {
   "name": "cdk-pipeline-eb-psa",
   "version": "0.1.0",
-  "engines": {
-    "node": ">=18.17.0"
-  },
   "bin": {
     "cdk-pipeline-eb-psa": "bin/cdk-pipeline-eb-psa.js"
   },
