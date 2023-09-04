@@ -11,7 +11,7 @@ export class CdkPipelineStack extends Stack {
     super(scope, id, props);
 
     const pipeline = new CodePipeline(this, 'Pipeline', {
-      // The pipeline name:
+      // The pipeline name
       pipelineName: 'PSAPipeline',
 
        // How it will be built and synthesized
