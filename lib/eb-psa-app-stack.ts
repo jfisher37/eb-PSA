@@ -84,7 +84,7 @@ const optionSettingProperties: elasticbeanstalk.CfnEnvironment.OptionSettingProp
 ];
 
 
-// Create an Elastic Beanstalk environment to run the application
+// Create an Elastic Beanstalk environment to run the application:
 const elbEnv = new elasticbeanstalk.CfnEnvironment(this, 'Environment', {
     environmentName: props?.envName ?? "MyWebAppEnvironment",
     applicationName: app.applicationName || appName,
