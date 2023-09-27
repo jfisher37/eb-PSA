@@ -17,7 +17,7 @@ export class EBApplnStack extends cdk.Stack {
   constructor(scope: Construct, id: string, props?: EBEnvProps) {
     super(scope, id, props);
 
-    // The code that defines your stack goes here
+    // The code that defines your stack goes here:
 
 // Construct an S3 asset Zip from directory up.
 const webAppZipArchive = new s3assets.Asset(this, 'WebAppZip', {
