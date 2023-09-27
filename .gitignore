@@ -16,3 +16,6 @@ src/node_modules
 !src/*
 !src/package-lock.json
 !src/node_modules
+!src/*
+!src/package-lock.json
+!src/node_modules.json
